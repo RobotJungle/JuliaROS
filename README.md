@@ -11,12 +11,13 @@ Create a workspace
 
 Clone this repo
 ```bash 
-    cd catkin_ws/src && git clone https://github.com/itsahmedkhalil/JuliaROS
+    cd catkin_ws/src && git clone https://github.com/RobotJungle/JuliaROS.git
 ```
 
 Build the packages and source the workspace
 ```bash 
-    cd .. && catkin_ws && source devel/setup.bash
+    cd .. && catkin build 
+    source devel/setup.bash
 ```
 
 To use the TurtleBot launch file, add the model to your bashrc using:
